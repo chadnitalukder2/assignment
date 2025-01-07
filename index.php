@@ -1,13 +1,10 @@
 <?php
-// File: index.php
 
 require_once 'ProductManager.php';
 require_once 'Actions.php';
 
 $productManager = new ProductManager();
 $action = new Action($productManager);
-
-// Handle form submission
 
 $cart = $productManager->getCart();
 

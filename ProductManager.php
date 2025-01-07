@@ -1,5 +1,4 @@
 <?php
-// File: ProductManager.php
 
 class ProductManager
 {
